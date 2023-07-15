@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+
+
+form{
+    background: rgb(87, 87, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+input{
+    width: 400px;
+    outline: none;
+    border: none;
+    padding: 3px;
+    height: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+button[type="submit"]{
+    height: 31px;
+    outline: none;
+    border: none;
+    width: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.25s background linear;
+}
+
+button[type="submit"]:hover{
+    background: #b5b4b4
+}
+
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.photo-card{
+    width: calc(100% / 4 - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-card img{
+    height: 400px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.photo-card  .info{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 5px 5px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.info-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    justify-content: space-between;
+}
