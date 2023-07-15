@@ -5,7 +5,6 @@ const API_KEY = "38253238-ec6a6e94acafbceabd9aec54b"
 
 let PAGE = 1;
 
-var _ = require('lodash');
 
 
 const formEl = document.querySelector(".search-form");
